@@ -35,6 +35,12 @@ The script hooks RequireJS and patches four GWO modules in memory as they load
 - It must load before GWO's `gw_play` scripts (priority 150, GWO uses 200). If the console never shows "armed"
   before GWO loads, or shows UNPATCHED, open an issue.
 
+## How it was made
+
+I had the idea and since I'm a little nooby coder. It's vibe-coded.
+
+I tested things, pointed in the direction where bugs were at and Claude did Claude things.
+
 ## License
 
 MIT, see `LICENSE`.
