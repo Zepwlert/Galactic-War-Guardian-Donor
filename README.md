@@ -20,7 +20,7 @@ The Guardians then use that player's:
 
 Requires Galactic War Overhaul (`com.pa.quitch.gwaioverhaul`). Built against GWO 7.7.0.
 
-Put this folder in your PA `client_mods` folder as its own mod, next to GWO, and enable it in the in-game Community Mods menu.
+Put the folder "GW-Guardian-Donor" in your PA `client_mods` folder, enable it in the in-game Community Mods menu.
 No GWO file is edited or replaced.
 
 ## How it works
