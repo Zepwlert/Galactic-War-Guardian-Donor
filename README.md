@@ -6,6 +6,8 @@ With **Separate loadouts & tech** on, the Guardians normally mirror every player
 **one randomly chosen player per battle** instead. 
 If separate loadouts & tech is off it does nothing.
 
+However if GWO Changes code about how the guardians work, this will likely fail and needs to be updated.
+
 ## What it does
 
 Each Fight draws one player at random.
