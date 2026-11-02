@@ -1,0 +1,21 @@
+{
+  "context": "client",
+  "identifier": "com.pa.quitch.gwaioverhaul.guardiandonor",
+  "display_name": "GWO: Guardians Copy One Player",
+  "description": "Add-on for Galactic War Overhaul. With Separate loadouts & tech on, The Guardians copy the tech cards, AI tech and race of ONE randomly chosen player per battle instead of every player's. Changes no GWO file; it patches GWO's referee modules in memory as they load.",
+  "author": "Zepwlert",
+  "version": "1.0.0",
+  "build": "1",
+  "date": "2026-10-20",
+  "signature": " ",
+  "category": ["titans", "ai", "gw", "gameplay", "gwaio", "gwo"],
+  "scenes": {
+    "gw_play": [
+      "coui://ui/mods/com.pa.quitch.gwaioverhaul.guardiandonor/gw_play/guardian_donor_loader.js"
+    ]
+  },
+  "priority": 150,
+  "titansOnly": true,
+  "galacticWarMod": true,
+  "dependencies": ["com.pa.quitch.gwaioverhaul"]
+}

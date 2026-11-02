@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34288869/README.md)
 # GWO: Guardians Copy One Player
 
 A Planetary Annihilation: Titans client add-on for [Galactic War Overhaul](https://github.com/quitch/GW-AI-Overhaul) (GWO) by **Zepwlert**.
