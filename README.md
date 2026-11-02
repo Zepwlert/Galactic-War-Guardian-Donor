@@ -7,7 +7,8 @@ With **Separate loadouts & tech** on, the Guardians normally mirror every player
 
 ## What it does
 
-Each Fight draws one player at random: the host, each connected viewer, or each per-player co-op AI.
+Each Fight draws one player at random.
+
 The Guardians then use that player's:
 
 - unit mods (including commander buff cards)
