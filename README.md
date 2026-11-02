@@ -3,7 +3,8 @@
 A Planetary Annihilation: Titans client add-on for [Galactic War Overhaul](https://github.com/quitch/GW-AI-Overhaul) (GWO)
 
 With **Separate loadouts & tech** on, the Guardians normally mirror every player's tech. This add-on makes them copy
-**one randomly chosen player per battle** instead. With separate loadouts & tech off, nothing changes.
+**one randomly chosen player per battle** instead. 
+If separate loadouts & tech is off it does nothing.
 
 ## What it does
 
