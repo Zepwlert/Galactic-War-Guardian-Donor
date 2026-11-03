@@ -1,23 +1,32 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.gwaioverhaul.guardiandonor",
+  "identifier": "com.pa.zepwlert.gwoguardiandonor",
   "display_name": "GWO: Guardians Copy One Player",
-  "description": "Galactic War Overhaul Guardians copy only a single players Commander, Race and tech cards when separate loadouts & tech is enabled.",
+  "description": "When separate loadouts & tech is enabled with Galactic War Overhaul the Guardians take everything from one random player instead of everyone in the lobby.",
   "author": "Zepwlert",
-  "version": "1.0.0",
-  "build": "1",
-  "date": "2026-10-20",
+  "version": "1.1.0",
+  "build": "124685",
+  "date": "2026-11-03",
   "signature": " ",
   "forum": "https://github.com/Zepwlert/Galactic-War-Guardian-Donor/discussions/1",
-  "category": ["titans", "ai", "gw", "gameplay", "gwaio", "gwo"],
+  "category": [
+    "titans",
+    "ai",
+    "gw",
+    "gameplay",
+    "gwaio",
+    "gwo"
+  ],
   "icon": "https://raw.githubusercontent.com/Zepwlert/Galactic-War-Guardian-Donor/refs/heads/main/Unicorn%20Bonk.png",
   "scenes": {
     "gw_play": [
-      "coui://ui/mods/com.pa.quitch.gwaioverhaul.guardiandonor/gw_play/guardian_donor_loader.js"
+      "coui://ui/mods/com.pa.zepwlert.gwoguardiandonor/gw_play/guardian_donor_loader.js"
     ]
   },
   "priority": 150,
   "titansOnly": true,
   "galacticWarMod": true,
-  "dependencies": ["com.pa.quitch.gwaioverhaul"]
+  "dependencies": [
+    "com.pa.quitch.gwaioverhaul"
+  ]
 }
