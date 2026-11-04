@@ -140,20 +140,6 @@
   ];
   PATCHES[BASE + "referee_ai.js"] = [
     {
-      // The Guardians' AI mods (the "All" scope): the donor's alone.
-      find:
-        "    var allPlayerAiMods = getRefereeInventoryAiMods(inventory).concat(\n" +
-        "      getConnectedClientAiMods(game, connectedClients, coopAis)\n" +
-        "    );\n",
-      replace:
-        "    var gwoDonor = " + D + ".pick(game, refereeCoop, connectedClients, coopAis);\n" +
-        "    var allPlayerAiMods = gwoDonor\n" +
-        "      ? getRefereeInventoryAiMods(gwoDonor.inventory)\n" +
-        "      : getRefereeInventoryAiMods(inventory).concat(\n" +
-        "          getConnectedClientAiMods(game, connectedClients, coopAis)\n" +
-        "        );\n",
-    },
-    {
       // Race trees: the Guardians' mods and race come from the donor. Only
       // the Guardians' list changes; host Sub Commanders keep every player.
       find:

@@ -35,7 +35,7 @@ The script hooks RequireJS and patches four GWO modules in memory as they load (
 
 ## Known limitation
 
-Race trees: with the Guardians' AI-mod scope set to "All", GWO writes one list for both the Guardians and the host's Sub Commanders on the Mirror/MLA tree. A text patch can't separate them, so on that tree the Guardians' AI mods follow GWO's own rules. Their unit mods, tech cards and race still come from the donor.
+MLA tree: when the Guardians' AI-mod scope is "All", GWO gives the Guardians and the host's Sub Commanders the same AI-mod list. A text patch can't separate them, so on that tree the Guardians keep GWO's stock AI mods (every player's) and the host's Sub Commanders keep the host's own. On race trees the Guardians' AI mods come from the donor. Their unit mods, tech cards and race always come from the donor.
 
 ## How it was made
 
